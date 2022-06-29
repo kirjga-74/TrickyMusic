@@ -97,7 +97,7 @@ async def cb_cmd(_, query: CallbackQuery):
     await query.edit_message_text(
         f"""✨ **Hello !**
 » **ғᴏʀ ᴀɴʏ ʜᴇʟᴘ ᴀɴᴅ ᴄᴏᴍᴍᴀɴᴅ ᴄʟɪᴄᴋ ʙᴜᴛᴛᴏɴs 🔭 !**
-⚡ Powered by [H E R O X](https://t.me/Herox_xd)""",
+⚡ Powered by [A S T](https://t.me/AnimeSubbingTeam07)""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -127,7 +127,7 @@ async def cb_basic(_, query: CallbackQuery):
 •  `/mute` - mute assistant in vc
 •  `/lyrics (song name)`
 
-⚡ Powered By [H E R O X](https://t.me/herox_xd) .""",
+⚡ Powered By [A S T](https://t.me/AnimeSubbingTeam07) .""",
         reply_markup=InlineKeyboardMarkup(
             [[InlineKeyboardButton("ʙᴀᴄᴋ", callback_data="cb_cmd")]]
         ),
@@ -145,7 +145,7 @@ async def cb_advance(_, query: CallbackQuery):
 • `/rmd` clean all downloads
 • `/clean` - clear storage 
 
-⚡ Powered By [A S T](https://t.me/AnimeSubbingTeam07 ) .""",
+⚡ Powered By [A S T](https://t.me/AnimeSubbingTeam07) .""",
         reply_markup=InlineKeyboardMarkup(
             [[InlineKeyboardButton("ʙᴀᴄᴋ", callback_data="cb_cmd")]]
         ),
@@ -162,7 +162,7 @@ async def cb_fun(_, query: CallbackQuery):
 • `/abhi`   🌝
 • `/tricky` 🌝   
 
-⚡ Powered By [H E R O X](https://t.me/herox_xd) .""",
+⚡ Powered By [A S T ](https://t.me/AnimeSubbingTeam07) .""",
         reply_markup=InlineKeyboardMarkup(
             [[InlineKeyboardButton("ʙᴀᴄᴋ", callback_data="cb_cmd")]]
         ),
