@@ -75,7 +75,7 @@ async def start_private(client: Client, message: Message):
                         "• Sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/AnimeSubbingTeam07"
                     ),
                     InlineKeyboardButton(
-                        "• Uᴘᴅᴀᴛᴇs", url=f"https://t.me/AnimeSubbingTeam07}"
+                        "• Uᴘᴅᴀᴛᴇs", url=f"https://t.me/AnimeSubbingTeam07"
                     ),
                 ],
                 [
