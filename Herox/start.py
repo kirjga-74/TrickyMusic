@@ -55,7 +55,7 @@ async def start_private(client: Client, message: Message):
         caption=f"""ʜᴇʟʟᴏ✨ **ᴡᴇʟᴄᴏᴍᴇ {message.from_user.mention()} !**\n
  **ɪ ᴄᴀɴ ᴘʟᴀʏ ᴍᴜsɪᴄ ɪɴ ɢʀᴏᴜᴘ ᴠɪᴅᴇᴏ ᴄᴀʟʟ !!**
  **ᴊᴜsᴛ ᴀᴅᴅ ᴍᴇ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴘʀᴏᴍᴏᴛᴇ 💫**
- **ғᴏʀ ᴀɴʏ ʜᴇʟᴘ ᴊᴏɪɴ @Techno_Trickop**""",
+ **ғᴏʀ ᴀɴʏ ʜᴇʟᴘ ᴊᴏɪɴ @drak_king_Hiei**""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -67,7 +67,7 @@ async def start_private(client: Client, message: Message):
                 [InlineKeyboardButton(
                     "• Cᴏᴍᴍᴀɴᴅs", callback_data="cb_cmd"),],
                 [
-                    InlineKeyboardButton("• Oᴡɴᴇʀ", url=f"https://t.me/{OWNER_NAME}"),
+                    InlineKeyboardButton("• Oᴡɴᴇʀ", url=f"https://t.me/@drak_king_Hiei"),
                     InlineKeyboardButton("• Dᴇᴠᴇʟᴏᴘᴇʀ ", url=f"https://t.me/drak_king_Hiei"),
                 ],
                 [
@@ -80,7 +80,7 @@ async def start_private(client: Client, message: Message):
                 ],
                 [
                     InlineKeyboardButton(
-                        "• Sᴏᴜʀᴄᴇ Cᴏᴅᴇ •", url="https://github.com/lol"
+                        "• lol Cᴏᴅᴇ •", url="https://t.me/AnimeSubbingTeam07"
                     )
                 ],
             ]
