@@ -242,8 +242,8 @@ async def vplay(c: Client, m: Message):
                       reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                            InlineKeyboardButton("• Channel", url=f"https://t.me/{UPDATES_CHANNEL}"),
-                            InlineKeyboardButton("• Support", url=f"https://t.me/{GROUP_SUPPORT}")
+                            InlineKeyboardButton("• Channel", url=f"https://t.me/AnimeSubbingTeam07"),
+                            InlineKeyboardButton("• Support", url=f"https://t.me/AnimeSubbingTeam07")
                         ],
                         [
                             InlineKeyboardButton("🗑 Close", callback_data="cls")
