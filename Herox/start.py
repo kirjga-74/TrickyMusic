@@ -68,7 +68,7 @@ async def start_private(client: Client, message: Message):
                     "• Cᴏᴍᴍᴀɴᴅs", callback_data="cb_cmd"),],
                 [
                     InlineKeyboardButton("• Oᴡɴᴇʀ", url=f"https://t.me/{OWNER_NAME}"),
-                    InlineKeyboardButton("• Dᴇᴠᴇʟᴏᴘᴇʀ ", url=f"https://t.me/herox_xd"),
+                    InlineKeyboardButton("• Dᴇᴠᴇʟᴏᴘᴇʀ ", url=f"https://t.me/drak_king_Hiei"),
                 ],
                 [
                     InlineKeyboardButton(
@@ -80,7 +80,7 @@ async def start_private(client: Client, message: Message):
                 ],
                 [
                     InlineKeyboardButton(
-                        "• Sᴏᴜʀᴄᴇ Cᴏᴅᴇ •", url="https://github.com/SJMxADITI/TrickyMusic"
+                        "• Sᴏᴜʀᴄᴇ Cᴏᴅᴇ •", url="https://github.com/lol"
                     )
                 ],
             ]
@@ -135,7 +135,7 @@ async def ping_pong(client: Client, message: Message):
     start = time()
     m_reply = await message.reply_text("pinging...")
     delta_ping = time() - start
-    await m_reply.edit_text("🏓 Bot Alive #𝙃𝙚𝙧𝙤𝙭_𝙈𝙪𝙨𝙞𝙘 `PONG!!`\n" f"⚡️ `{delta_ping * 1000:.3f} ms`")
+    await m_reply.edit_text("🏓 Bot Alive #sakataop `PONG!!`\n" f"⚡️ `{delta_ping * 1000:.3f} ms`")
 
 
 @Client.on_message(command(["uptime", f"uptime@{BOT_USERNAME}"]) & ~filters.edited)
