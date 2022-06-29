@@ -54,7 +54,7 @@ async def cb_start(_, query: CallbackQuery):
        f"""ʜᴇʟʟᴏ [✨](https://telegra.ph/file/ea8d4bee1c0fac3814e11.jpg) **ᴡᴇʟᴄᴏᴍᴇ [{query.message.chat.first_name}](tg://user?id={query.message.chat.id}) !**\n
  **ɪ ᴄᴀɴ ᴘʟᴀʏ ᴍᴜsɪᴄ ɪɴ ɢʀᴏᴜᴘ ᴠɪᴅᴇᴏ ᴄᴀʟʟ !!**
  **ᴊᴜsᴛ ᴀᴅᴅ ᴍᴇ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴘʀᴏᴍᴏᴛᴇ 💫**
- **ғᴏʀ ᴀɴʏ ʜᴇʟᴘ ᴊᴏɪɴ @Techno_Trickop**""",
+ **ғᴏʀ ᴀɴʏ ʜᴇʟᴘ ᴊᴏɪɴ @AnimeSubbingTeam07**""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -66,8 +66,8 @@ async def cb_start(_, query: CallbackQuery):
                 [InlineKeyboardButton(
                     "• Cᴏᴍᴍᴀɴᴅs", callback_data="cb_cmd"),],
                 [
-                    InlineKeyboardButton("• Oᴡɴᴇʀ", url=f"https://t.me/{OWNER_NAME}"),
-                    InlineKeyboardButton("• Dᴇᴠᴇʟᴏᴘᴇʀ ", url=f"https://t.me/herox_xd"),
+                    InlineKeyboardButton("• Oᴡɴᴇʀ", url=f"https://t.me/AnimeSubbingTeam07"),
+                    InlineKeyboardButton("• Dᴇᴠᴇʟᴏᴘᴇʀ ", url=f"https://t.me/AnimeSubbingTeam07"),
                 ],
                 [
                     InlineKeyboardButton(
@@ -79,7 +79,7 @@ async def cb_start(_, query: CallbackQuery):
                 ],
                 [
                     InlineKeyboardButton(
-                        "• Sᴏᴜʀᴄᴇ Cᴏᴅᴇ •", url="https://github.com/SJMxADITI/TrickyMusic"
+                        "• Sᴏᴜʀᴄᴇ Cᴏᴅᴇ •", url="https://t.me/AnimeSubbingTeam07"
                     )
                 ],
             ]
@@ -145,7 +145,7 @@ async def cb_advance(_, query: CallbackQuery):
 • `/rmd` clean all downloads
 • `/clean` - clear storage 
 
-⚡ Powered By [H E R O X](https://t.me/herox_xd) .""",
+⚡ Powered By [A S T](https://t.me/AnimeSubbingTeam07 ) .""",
         reply_markup=InlineKeyboardMarkup(
             [[InlineKeyboardButton("ʙᴀᴄᴋ", callback_data="cb_cmd")]]
         ),
